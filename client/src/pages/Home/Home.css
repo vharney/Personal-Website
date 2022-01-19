@@ -1,0 +1,62 @@
+.Name-parent {
+    text-align: center;
+    position: relative; 
+    overflow: hidden;
+    height: 500px;
+}
+
+.Name-bg {
+    position: absolute;
+    left: 0;
+    top: -600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+.Title-bg {
+    border-radius: 60px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.Avatar-vh {
+    margin: 50px auto 0px auto;
+    height: 200px !important;
+    width: 200px !important;
+    font-size: 70px !important;
+}
+
+.Tech-chip {
+    background-color: rgba(154, 230, 180, 0.16) !important;
+    margin-left: 10px;
+    color: #9AE6B4 !important;
+    padding: 0px 5px 0px 5px !important;
+    font-weight: bolder;
+}
+
+.Content-card {
+    background-color: #242524 !important;
+    color: white !important;
+    margin: 30px 0px 10px 30px;
+}
+
+.Drawer-link {
+    padding-left: 20px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* justify-content: center; */
+    align-content: center;
+    color: black;
+}
+
+.Drawer-link:hover {
+    background-color: rgb(221, 221, 221);
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid black;
+}
+
+.Tab-title {
+    text-align: center;
+}

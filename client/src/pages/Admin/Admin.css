@@ -1,0 +1,15 @@
+.Password {
+    position: relative;
+}
+
+.ShowHidePw {
+    position: absolute; 
+    right: 0;
+    top: 32px;
+}
+
+.ShowHidePw:active {
+    border-style: outset;
+    outline: none;
+    box-shadow: none;
+}
